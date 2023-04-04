@@ -28,7 +28,7 @@ header {
 }
 
 .nav-bar {
-
+    font-size: 1vw;
     padding: 3vh;
     display: flex;
     flex-direction: row;
@@ -107,6 +107,7 @@ ul:hover {
 }
 #roll-illu {
     width: 10%;
+    opacity: 0.1;
 }
 .roll-first {
     padding-top: 10vh;
