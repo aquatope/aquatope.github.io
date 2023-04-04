@@ -49,9 +49,10 @@ ul:hover {
 body { 
     background-image: url("../branding/full-view.png");
     background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
+    background-repeat: repeat;
+    background-position: 0vh 8vh;
     width: auto;
     height: 100vh;
     width: 100%;
+    background-color: #4361ee;
 }
