@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+:root {
+    font-size: 10px;
+}
+
+* {
+    font-family: 'Rubik', sans-serif;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+a {
+    color: inherit;
+}
+
+header {
+    color: white;
+    /*background-image: url("../branding/aquatope-banner.png");*/
+    background-color: #4361ee;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: auto;
+    width: 100%;
+}
+
+.nav-bar {
+    font-size: 1vw;
+    padding: 3vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+ul {
+    text-underline-offset: 1vh;
+    text-decoration: solid underline white 3px;
+    transition: 0.2s;
+}
+ul:hover {
+    text-underline-offset: 1.5vh;
+    text-decoration: solid underline white 3px;
+}
+body {
+    background-color: #4361ee;
+}
+.log-container {
+    padding: 10vh;
+    display: flex;
+    font-weight: lighter;
+    color: white;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+}
+#hour {
+    font-size: 5rem;
+}
+#talk {
+    word-break: break-all;
+    width: 80%;
+    font-size: 1.5rem;
+}
