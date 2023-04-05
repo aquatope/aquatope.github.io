@@ -28,11 +28,12 @@ header {
 }
 
 .nav-bar {
-    font-size: 1vw;
+    gap: 2vh;
+    font-size: 1vh;
     padding: 3vh;
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-content: center;
     justify-content: space-evenly;
     align-items: center;
@@ -54,7 +55,7 @@ ul:hover {
     margin-bottom: 3vh;
 }
 #description {
-    word-break: break-all;
+    word-break: keep-all;
     width: 70%;
     font-size: 18.5px;
     margin-top: 1vh;
@@ -104,11 +105,15 @@ ul:hover {
     align-content: center;
     align-items: center;
     justify-content: space-around;
+    margin-left: 5vh;
+    margin-right: 5vh;
 }
 #roll-illu {
-    width: 10%;
-    opacity: 0.1;
+    width: 20vw;
+    border-radius: 10px;
+    opacity: 1.1;
 }
+
 .roll-first {
     padding-top: 10vh;
     padding-bottom: 10vh;
@@ -128,6 +133,8 @@ ul:hover {
     background-color: white;
 }
 .container-second {
+    margin-left: 5vh;
+    margin-right: 5vh;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -236,3 +243,15 @@ footer {
     align-items: flex-end;
 }
 
+body::-webkit-scrollbar
+{
+    width: 0.7rem;
+}
+body::-webkit-scrollbar-track
+{
+    background: #4361ee; 
+}
+body::-webkit-scrollbar-thumb
+{
+    background: #3750c0;
+}
