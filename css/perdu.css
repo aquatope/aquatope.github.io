@@ -28,7 +28,7 @@ header {
 }
 
 .nav-bar {
-    font-size: 1vw;
+    font-size: 1vh;
     padding: 3vh;
     display: flex;
     flex-direction: row;
